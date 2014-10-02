@@ -24,11 +24,11 @@ third_place = raw_input(" Enter A Place You Never Been ")
 
 # First Number
 
-first_number = raw_input(" Enter A Number ")
+first_number = raw_input(" Enter A Number Between 1 and 5 ")
 
 # Second Number
 
-second_number = raw_input(" Enter Another Number ")
+second_number = raw_input(" Enter Another Number Between 1 and 5 ")
 
 # Third Number
 
@@ -59,15 +59,19 @@ dog_toys = {"Walmart":"Chew Toy", "Petsmart":"Obedience School"}
 #-----------------------------------------------------------------------------
 
 # adding my for loop
-
-for i in range(4,0):
+i = 0
+for i in range(0,10):
     print "Tippy ", i
-    i = i-1
+    i = i + 1
 
 #------------------------------------------------------------------------------
+
+weeks = first_number * second_number
 # This is the section for the Story
 
 print " Going Out "
 
-print "Today I was thinking about taking my dog out for a walk.  Should I take my dog to", first_place ,"?"
+print "Today I was thinking about taking my dog out for a walk."
+print "Should I take my dog to", first_place ,"?"
 print "Do you think he would have a better time at ", second_place, "?"
+print "I have not taken Archie out in ", weeks , "."
