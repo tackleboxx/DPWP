@@ -56,9 +56,15 @@ friends = ["Reed", "Izzy", "Chandra"]
 dog_toys = dict()
 dog_toys = {"Walmart":"Chew Toy", "Petsmart":"Obedience School"}
 
+#-----------------------------------------------------------------------------
 
+# adding my for loop
 
+for i in range(4,0):
+    print "Tippy ", i
+    i = i-1
 
+#------------------------------------------------------------------------------
 # This is the section for the Story
 
 print " Going Out "
