@@ -51,8 +51,10 @@ friends = ["Reed", "Izzy", "Chandra"]
 #----------------------------------------------------------------------------
 
 
+# Create Dictionary object
 
-
+dog_toys = dict()
+dog_toys = {"Walmart":"Chew Toy", "Petsmart":"Obedience School"}
 
 
 
