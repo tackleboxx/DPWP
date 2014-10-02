@@ -35,9 +35,14 @@ second_number = raw_input(" Enter Another Number ")
 third_number = raw_input(" Enter A Different Number ")
 
 
-
-
-
+# Conditional Statement for weather
+#weather = "sunny"
+#if weather == "sunny":
+#    pass #go to the park
+#elif weather != "sunny":
+#    pass # go somewhere inside
+#else:
+#    pass # go home
 
 
 
@@ -50,5 +55,5 @@ third_number = raw_input(" Enter A Different Number ")
 
 print " Going Out "
 
-print "Today I was thinking about taking my dog out for a walk.  Should I take my dog to the ", first_place ,"?"
-print "Do you think he would have a better time at the ", second_place, "?"
+print "Today I was thinking about taking my dog out for a walk.  Should I take my dog to", first_place ,"?"
+print "Do you think he would have a better time at ", second_place, "?"
