@@ -35,14 +35,20 @@ second_number = raw_input(" Enter Another Number ")
 third_number = raw_input(" Enter A Different Number ")
 
 
-# Conditional Statement for weather
-#weather = "sunny"
-#if weather == "sunny":
-#    pass #go to the park
-#elif weather != "sunny":
-#    pass # go somewhere inside
-#else:
-#    pass # go home
+# Conditional Statement for weather ---------------------------------------
+weather = "sunny"
+if weather == "sunny":
+    pass #go to the park
+elif weather != "sunny":
+    pass # go somewhere
+else:
+    pass # go home
+
+# my array of friends
+
+friends = ["Reed", "Izzy", "Chandra"]
+
+#----------------------------------------------------------------------------
 
 
 
