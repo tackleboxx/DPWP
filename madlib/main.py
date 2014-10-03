@@ -85,3 +85,4 @@ for i in range(1,4):
 
 print "That's a bad dog!, Oh I can't stay mad at you."
 print "Well, my mind has been made up I will take him to the" ,third_place , "and see what happens there."
+print "I wonder what the weather is going to be like? Hmm... Looks like" , weather, "."
