@@ -58,11 +58,7 @@ dog_toys = {"Walmart":"Chew Toy", "Petsmart":"Obedience School"}
 
 #-----------------------------------------------------------------------------
 
-# adding my for loop
-i = 0
-for i in range(1,4):
-    print "Tippy ", i
-    i = i + 1
+
 
 #------------------------------------------------------------------------------
 
@@ -79,3 +75,13 @@ print "Should I take my dog to the", first_place ,"?"
 print "Do you think he would have a better time at the", second_place, "?"
 print "I have not taken Archie out in " + str(weeks) + " days."
 print "He may want to eat because he has not eaten in " + str(food_hours) + " hours."
+print "OH NO! Archie ran by the street. Get back here!"
+
+# adding my for loop
+i = 0
+for i in range(1,4):
+    print "Archie ", i , "!"
+    i = i + 1
+
+print "That's a bad dog!, Oh I can't stay mad at you."
+print "Well, my mind has been made up I will take him to the" ,third_place , "and see what happens there."
