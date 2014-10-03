@@ -103,4 +103,11 @@ else:
     print bad_dog,"."
     pass
 
-print "We didn't realize that " + friends[0] + "," + friends[1] + ", and " + friends[2] + " Like to go to the", second_place, " too."
+print "We didn't realize that " + friends[0] + ", " + friends[1] + " , and " + friends[2] + " Like to go to the", second_place, " too."
+
+def hangFriends():
+    time = int(first_number) * int(second_number)
+    years = time * 30
+    return years
+days = hangFriends()
+print "It has been", days, "days since we have all been together."
