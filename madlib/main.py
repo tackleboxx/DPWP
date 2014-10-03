@@ -101,4 +101,6 @@ if behavior == "good":
     print good_dog,"."
 else:
     print bad_dog,"."
+    pass
 
+print "We didn't realize that " + friends[0] + "," + friends[1] + ", and " + friends[2] + " Like to go to the", second_place, " too."
