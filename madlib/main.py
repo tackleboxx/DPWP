@@ -60,18 +60,22 @@ dog_toys = {"Walmart":"Chew Toy", "Petsmart":"Obedience School"}
 
 # adding my for loop
 i = 0
-for i in range(0,10):
+for i in range(1,4):
     print "Tippy ", i
     i = i + 1
 
 #------------------------------------------------------------------------------
 
-weeks = first_number * second_number
+# mathematical operators for assignment
+
+weeks = int(first_number) * int(second_number)
+food_hours = second_number + third_number
 # This is the section for the Story
 
 print " Going Out "
 
 print "Today I was thinking about taking my dog out for a walk."
-print "Should I take my dog to", first_place ,"?"
-print "Do you think he would have a better time at ", second_place, "?"
-print "I have not taken Archie out in ", weeks , "."
+print "Should I take my dog to the", first_place ,"?"
+print "Do you think he would have a better time at the", second_place, "?"
+print "I have not taken Archie out in " + str(weeks) + " days."
+print "He may want to eat because he has not eaten in " + str(food_hours) + " hours."
