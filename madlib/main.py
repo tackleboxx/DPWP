@@ -35,14 +35,7 @@ second_number = raw_input(" Enter Another Number Between 1 and 5 ")
 third_number = raw_input(" Enter A Different Number ")
 
 
-# Conditional Statement for weather ---------------------------------------
-weather = "sunny"
-if weather == "sunny":
-    pass #go to the park
-elif weather != "sunny":
-    pass # go somewhere
-else:
-    pass # go home
+
 
 # my array of friends
 
@@ -85,4 +78,13 @@ for i in range(1,4):
 
 print "That's a bad dog!, Oh I can't stay mad at you."
 print "Well, my mind has been made up I will take him to the" ,third_place , "and see what happens there."
-print "I wonder what the weather is going to be like? Hmm... Looks like" , weather, "."
+print "I wonder what the weather is going to be like? Hmm... Looks like I will"
+# Conditional Statement for weather ---------------------------------------
+weather = "sunny"
+
+if weather == "sunny":
+    print "go to the" , third_place
+elif weather != "sunny":
+    print "go to the" , second_place
+else:
+    print "go home"
