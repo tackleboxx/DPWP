@@ -73,7 +73,7 @@ print "OH NO! Archie ran by the street. Get back here!"
 # adding my for loop
 i = 0
 for i in range(1,4):
-    print "Archie ", i , "!"
+    print i, "!"
     i = i + 1
 
 print "That's a bad dog!, Oh I can't stay mad at you."
@@ -83,8 +83,22 @@ print "I wonder what the weather is going to be like? Hmm... Looks like I will"
 weather = "sunny"
 
 if weather == "sunny":
-    print "go to the" , third_place
+    print "go to the" , third_place,"."
 elif weather != "sunny":
-    print "go to the" , second_place
+    print "go to the" , second_place, "."
 else:
     print "go home"
+
+print "After the long and treacherous trip to", third_place , "my dog and I were ecstatic that we made the trip."
+print "I thought after the trip Archie was good we could go to Walmart and get a"
+
+good_dog = dog_toys["Walmart"]
+bad_dog = dog_toys["Petsmart"]
+
+behavior = "good"
+
+if behavior == "good":
+    print good_dog,"."
+else:
+    print bad_dog,"."
+
