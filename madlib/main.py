@@ -111,3 +111,5 @@ def hangFriends():
     return years
 days = hangFriends()
 print "It has been", days, "days since we have all been together."
+print "We decided it had been such a long day that we would all go back to the house and hang out for the night."
+print "The End"
