@@ -24,7 +24,12 @@ class Page(object):
     <body>'''
 
         self.body = '''<form method="GET" action="">
-        <label>Name:</label><input type="text" name="user" />
+        <label>First Name:</label><input type="text" name="fname" />
+        <label>Last Name:</label><input type="text" name="lname" />
+        <label>Address:</label><input type="text" name="address" />
+        <label>City:</label><input type="text" name="city" />
+        <label>State:</label><input type="text" name="state" />
+        <label>Zipcode:</label><input type="text" name="zipcode" />
         <label>Email:</label><input type="text" name="email" />
         <input type="submit" value="submit" />'''
 
