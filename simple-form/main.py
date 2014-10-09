@@ -16,12 +16,15 @@ class MainHandler(webapp2.RequestHandler): # declaring a class
     </head>
     <body>'''
 
-        page_body = '''<form method="GET" action="">
-        <label>First Name:</label><input type="text" name="fname" />
-        <label>Last Name:</label><input type="text" name="lname" />
-        <label>Address:</label><input type="text" name="address" />
-        <label>City:</label><input type="text" name="city" />
-        <label>State:</label><select name="state" size="1">
+        page_body = '''
+
+        <div class="form"><form method="GET" action="">
+        <h1> Contact Me</h1>
+        <label>First Name:</label><input type="text" name="fname" /><br>
+        <label>Last Name:</label><input type="text" name="lname" /><br>
+        <label>Address:</label><input type="text" name="address" /><br>
+        <label>City:</label><input type="text" name="city" /><br>
+        <label>State:</label><select name="state" size="1"><br>
             <option selected value="">State...</option>
             <option value="ZZ">None</option>
             <option value="">-- UNITED STATES --</option>
@@ -75,15 +78,16 @@ class MainHandler(webapp2.RequestHandler): # declaring a class
             <option value="WV">West Virginia</option>
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
-</select>
+</select><br>
 
-        <label>Zipcode:</label><input type="text" name="zipcode" />
-        <label>Email:</label><input type="text" name="email" />
-        <input type="checkbox" name="checkbox">Agree To Terms
-        <input type="submit" value="submit" />'''
+        <br><label>Zipcode:</label><input type="text" name="zipcode" /><br>
+        <label>Email:</label><input type="text" name="email" /><br>
+        <input type="checkbox" name="checkbox">Agree To Terms<br>
+        <input type="button" class="button" value="Send" />'''
 
         page_close = '''
         </form>
+        </div>
     </body>
 </html>'''
 
