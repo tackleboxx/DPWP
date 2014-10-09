@@ -14,16 +14,23 @@ body {
     text-shadow: 1px 1px 1px #FFF;
     border:1px solid #E4E4E4;
 }
-
+header {
+	width:100%;
+	height:100%;
+	margin: 0 auto;	
+	border-bottom:1px solid #E4E4E4;
+	clear:both;
+}
 h1 {
+	text-align:center;
 	font-size: 25px;
     padding: 0px 0px 10px 40px;
     display: block;
     border-bottom:1px solid #E4E4E4;
-    margin: -10px -15px 30px -10px;;
+    margin: -10px -15px 30px -10px;
     color: #888;
 }
-input[type="text"] {
+input[type="text"], select {
 	border: 1px solid #DADADA;
     color: #888;
     height: 30px;
@@ -38,6 +45,13 @@ input[type="text"] {
     box-shadow: inset 0px 1px 4px #ECECEC;
     -moz-box-shadow: inset 0px 1px 4px #ECECEC;
     -webkit-box-shadow: inset 0px 1px 4px #ECECEC;	
+}
+select {
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
 }
 textarea{
     padding: 5px 3px 3px 5px;
@@ -66,3 +80,14 @@ label {
 }
 .button:hover {
     background: #CF7A7A
+}
+footer {
+	width:960px;
+	height:75px;
+	margin:0 auto;
+	border-top:1px solid #E4E4E4;
+}
+footer p {
+	text-align:center;
+	color:#A5A5A5;
+}

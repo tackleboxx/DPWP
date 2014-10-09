@@ -11,13 +11,15 @@ class MainHandler(webapp2.RequestHandler): # declaring a class
         page_head = '''<!DOCTYPE HTML>
 <html>
     <head>
-        <title>Simple Form</title>
+        <title>Simple Form | Danny Dunn</title>
         <link href="css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>'''
 
         page_body = '''
-
+        <header>
+        <h1>Welcome To My Python Website</h1>
+        </header>
         <div class="form"><form method="GET" action="">
         <h1> Contact Me</h1>
         <label>First Name:</label><input type="text" name="fname" /><br>
@@ -82,12 +84,13 @@ class MainHandler(webapp2.RequestHandler): # declaring a class
 
         <br><label>Zipcode:</label><input type="text" name="zipcode" /><br>
         <label>Email:</label><input type="text" name="email" /><br>
-        <input type="checkbox" name="checkbox">Agree To Terms<br>
-        <input type="button" class="button" value="Send" />'''
+        <label></label><input type="checkbox" name="checkbox">Agree To Terms<br>
+        <label></label><input type="submit" class="button" value="submit" /></div>
+        <footer>
+        <p>Design Patterns for Web Programming - Online | Danny Dunn</p></footer>'''
 
         page_close = '''
         </form>
-        </div>
     </body>
 </html>'''
 
