@@ -86,6 +86,7 @@ class Page(object):
 
         <label>Zipcode:</label><input type="text" name="zipcode" />
         <label>Email:</label><input type="text" name="email" />
+        <input type="checkbox" name="vehicle" name="checkbox">Agree To Terms
         <input type="submit" value="submit" />'''
 
         self.close = '''
